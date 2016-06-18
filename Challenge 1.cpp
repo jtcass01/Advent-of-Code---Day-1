@@ -2,7 +2,7 @@
 Advent of Code
 Day 1: Challenge 1
 First Created: 12/5/15
-Last Upadted: 6/15/16*/
+Last Upadted: 6/17/16*/
 
 #include <iostream>
 #include <fstream>
@@ -14,7 +14,7 @@ int main(void){
 	string line;
 	int floor = 0,i=0,position=1;
 	char temp = '\0';
-	char fileLocation["100"];
+	char fileLocation[100];
 	
 	cout << "Please enter the file path: ";
 	cin >> fileLocation;
